@@ -125,10 +125,11 @@ etc. Compare the runtimes between the list and tree implementations
 until you observe some interesting behavior.
 
 # What to turn in
-You are required to submit a report, **including a graph of the input
-size vs program run-time** for each version of an associative
-array. Include some explanations of what you observe and explain why
-you think that one program is faster or slower than the other.
+You are required to submit your code, along with a report, **including
+a graph of the input size vs program run-time** for each version of an
+associative array. Include some explanations of what you observe and
+explain why you think that one program is faster or slower than the
+other.
 
 Your programs must run correctly, and must be free of memory misuse
 and memory leaks. And be sure you are not printing extraneous
