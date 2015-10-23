@@ -95,14 +95,14 @@ We have supplied two Python scripts to help generate data for your
 analyis.
 Running:
 ```
-$ ./gen_words.py 10000
+$ python gen_words.py 10000
 Wrote 10000 entries to words-10000.txt
 ```
 
 Will write 10k words (really the integers from 0 to 9999 in random
 order). To generate lookups from these words, run:
 ```
-$ ./gen_lookups.py 10000 100 
+$ python gen_lookups.py 10000 100 
 Wrote 100 lookups out of 10000 to lookups-100.txt
 ```
 These creates a file of 100 word lookups from the set of items.
