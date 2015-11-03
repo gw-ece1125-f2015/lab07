@@ -119,10 +119,19 @@ This measures the time to run dict_list with the 10k input file and
 100 word lookups.
 
 # Analysis
-Use the tools to generate input sets of 10k words. Then 
+Use the tools to generate input sets of 10k words. Then measure this
+run time for N=10 lookups, N=20, N=50, N=100, N=200, N=500,
+etc. Compare the runtimes between the list and tree implementations
+until you observe some interesting behavior.
 
 # What to turn in
-You are required to submit a report, including a graph of the input
-size vs program run-time for each version of an associative
-array. Include some explanations of what you observe and explain why
-you think that one program is faster or slower than the other.
+You are required to submit your code, along with a report, **including
+a graph of the input size vs program run-time** for each version of an
+associative array. Include some explanations of what you observe and
+explain why you think that one program is faster or slower than the
+other.
+
+Your programs must run correctly, and must be free of memory misuse
+and memory leaks. And be sure you are not printing extraneous
+information to the output as you measure the runtime.
+
